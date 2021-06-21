@@ -22,3 +22,13 @@ for (var i = 9; i > 0; i -= 2) {
 }
 
 console.log(myArray);
+
+// iterate through an array with a for loop:
+var myArr = [ 2, 3, 4, 5, 6];
+
+var total = 0;
+for (var i = 0 ; i < myArr.length; i++ ) {
+  total += myArr[i];
+}
+
+console.log(total);
